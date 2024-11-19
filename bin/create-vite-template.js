@@ -20,7 +20,7 @@ if (fs.existsSync(projectPath)) {
 }
 
 console.log(`Creating a new project in ${projectPath}...`);
-execSync(`git clone https://github.com/bluka1/newProjectTemplate.git ${projectPath}`, {
+execSync(`git clone https://github.com/bluka1/template.git ${projectPath}`, {
   stdio: 'inherit',
 });
 
